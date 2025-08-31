@@ -1,7 +1,7 @@
 n <- 10000
+
 v <- rnorm(n, mean = 0, sd = 1)
 w <- rnorm(n, mean = 0, sd = 1)
-
 z <- rnorm(n, mean = 0, sd = 1)
 
 x <- 2 * z + rnorm(n, mean = 0, sd = 1)
